@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/lm1234-ambulance-ufe
+
+components:
+- ../../../components/version-developers
