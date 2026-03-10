@@ -7,7 +7,11 @@ spec:
   element: lm1234-ambulance-wl-app
   attributes:
     - name: base-path
-      value: /lm1234-ambulance-wl/
+      value: ./lm1234-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
