@@ -4,3 +4,6 @@ images:
 - name: lukasmichalcak/ambulance-ufe
   newName: lukasmichalcak/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main.20260317.1609 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+- name: lukasmichalcak/ambulance-wl-webapi
+  newName: lukasmichalcak/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
