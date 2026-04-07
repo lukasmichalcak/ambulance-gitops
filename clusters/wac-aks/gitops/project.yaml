@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: lm1234-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich lm1234" # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Lukáš Michalčák" # Zadajte mená autorov
+  azureLink: "lm1234-ambulance-hscydfb6fnene8a5.westeurope-01.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/lukasmichalcak/ambulance-ufe"
+  backendRepoUrl: "https://github.com/lukasmichalcak/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/lukasmichalcak/ambulance-gitops"
